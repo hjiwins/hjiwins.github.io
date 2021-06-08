@@ -9,7 +9,7 @@ function Projects() {
       <h1 className={styles.projectsTitle}>Projects</h1>
       <div className={styles.cardWrap}>
         <ProjectCard
-          image="./images/todaynote.jpg"
+          image="/public/images/todaynote.jpg"
           title="Today's Note"
           detail="React 기초 연습을 위해 제작한 웹앱입니다."
           url="https://github.com/hjiwins/Todays-note"
