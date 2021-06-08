@@ -1,0 +1,31 @@
+.projectsWrap {
+  height: 100%;
+  padding: 5% 10%;
+}
+
+.projectsTitle {
+  background-color: #21d4fd;
+  background-image: linear-gradient(315deg, #21d4fd 0%, #b721ff 100%);
+
+  color: white;
+  padding: 2%;
+  margin: 2% 0 5%;
+}
+
+.cardWrap {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 10px;
+}
+
+.cardImage {
+  height: 50px;
+}
+
+.buttonWrap {
+    margin-top: 5%;
+}
+
+.githubLogo {
+  margin: 10px;
+}

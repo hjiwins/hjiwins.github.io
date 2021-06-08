@@ -1,0 +1,13 @@
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-shadow: 2px 2px 8px 4px rgba(0, 0, 0, 0.1);
+
+  grid-area: nav;
+}
+
+.mainLogo {
+  text-align: center;
+  padding: 10% 2%;
+}

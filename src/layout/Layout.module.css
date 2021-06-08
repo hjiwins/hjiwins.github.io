@@ -1,0 +1,14 @@
+main {
+  overflow: scroll;
+  grid-area: main;
+}
+
+.pageWrap {
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  grid-template-rows: 95vh 5vh;
+  grid-template-areas:
+  "nav main"
+  "nav footer";
+}
+
