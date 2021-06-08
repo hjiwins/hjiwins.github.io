@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import styles from "./Header.module.css";
+import styles from "./MobileHeader.module.css";
 
 import Tabs from "@material-ui/core/Tabs";
 import Tab from "@material-ui/core/Tab";
@@ -18,7 +18,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-function Header() {
+function MobileHeader() {
   const uiClasses = useStyles();
   const [value, setValue] = React.useState(0);
 
@@ -27,14 +27,13 @@ function Header() {
   };
 
   return (
-    <header className={styles.webheader}>
+    <header className={styles.mobileheader}>
       <div>
         <h1 className={styles.mainLogo}>Jiwon Hwang</h1>
       </div>
       <div className={uiClasses.root}>
         <Tabs
           className={uiClasses.tabs}
-          orientation="vertical"
           value={value}
           onChange={handleChange}
           aria-label="Vertical tabs"
@@ -54,4 +53,4 @@ function Header() {
   );
 }
 
-export default Header;
+export default MobileHeader;

@@ -1,6 +1,7 @@
 main {
   overflow: scroll;
   grid-area: main;
+  padding: 3% 10%;
 }
 
 .pageWrap {
@@ -12,3 +13,14 @@ main {
   "nav footer";
 }
 
+@media screen and (max-width: 767px) {
+  .pageWrap {
+    display: grid;
+    grid-template-columns: none;
+    grid-template-rows: auto 75vh auto;
+    grid-template-areas:
+    "nav"
+    "main"
+    "footer";
+  }
+}

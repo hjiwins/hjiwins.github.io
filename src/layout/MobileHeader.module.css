@@ -1,7 +1,9 @@
-.webheader {
+.mobileheader {
+  height: 20vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  place-items: center;
+  justify-content: flex-end;
   box-shadow: 2px 2px 8px 4px rgba(0, 0, 0, 0.1);
 
   grid-area: nav;
@@ -9,5 +11,5 @@
 
 .mainLogo {
   text-align: center;
-  padding: 10% 2%;
+  padding: 2%;
 }
