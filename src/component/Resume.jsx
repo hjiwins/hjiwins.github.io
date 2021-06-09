@@ -119,7 +119,6 @@ function Projects() {
             <thead>
               <tr>
                 <th>취득일</th>
-                <th>구분</th>
                 <th>자격/어학명</th>
                 <th>발행처</th>
                 <th>합격/점수</th>
@@ -128,42 +127,36 @@ function Projects() {
             <tbody>
               <tr>
                 <td>2011.08</td>
-                <td>면허증</td>
                 <td>2종 보통 운전면허</td>
                 <td>경찰청</td>
                 <td>합격</td>
               </tr>
               <tr>
                 <td>2011.12</td>
-                <td>어학시험</td>
                 <td>TOEIC</td>
                 <td>영어</td>
                 <td>795점</td>
               </tr>
               <tr>
                 <td>2012.08</td>
-                <td>어학시험</td>
                 <td>JLPT N1</td>
                 <td>일본어</td>
                 <td>1급 합격</td>
               </tr>
               <tr>
                 <td>2017.09</td>
-                <td>자격증</td>
                 <td>국제무역사 2급</td>
                 <td>한국무역협회</td>
                 <td>합격</td>
               </tr>
               <tr>
                 <td>2021.04</td>
-                <td>자격증</td>
                 <td>GTQ 포토샵 1급</td>
                 <td>한국생산성본부(KPC)</td>
                 <td>합격</td>
               </tr>
               <tr>
                 <td>2021.05</td>
-                <td>자격증</td>
                 <td>웹디자인 기능사</td>
                 <td>한국산업인력공단</td>
                 <td>필기합격</td>

@@ -38,6 +38,8 @@ td {
 .resumePaper > img {
   float: left;
   margin: 0 2% 2% 0;
+  width: 15%;
+  min-width: 150px;
 }
 
 .contact {
@@ -62,4 +64,21 @@ td {
   display: flex;
   place-items: center;
   justify-content: space-evenly;
+}
+
+@media screen and (max-width: 900px) {
+  .resumePaper > img {
+    float: none;
+    display: block;
+    margin: 2% auto;
+  }
+
+  .personalInfo {
+    line-height: 2rem;
+    text-align: center;
+  }
+
+  .contact {
+    flex-direction: column;
+  }
 }

@@ -23,7 +23,7 @@ function Projects() {
         <ProjectCard
           image="./images/tictactoe.jpg"
           title="Tic Tac Toe"
-          detail="Vanila JavaScript Class practice"
+          detail="클래스를 활용하여 제작한 게임입니다."
           url="https://github.com/hjiwins/TicTacToe"
         />
         <ProjectCard
